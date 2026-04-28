@@ -849,8 +849,8 @@
     <h1 class="hero-name">Aayushi<br><em>Dwivedi</em></h1>
     <p class="hero-sub">Fluid dynamics · CFD · Spacecraft propulsion</p>
     <p class="hero-desc">
-      Final-year B.Tech. student at VIT Bhopal, interested in computational fluid dynamics 
-      with experimental aerodynamic and Controls. Seeking graduate research opportunities 
+      Final-year B.Tech. student at VIT Bhopal, bridging computational fluid dynamics 
+      with experimental wind-tunnel validation. Seeking graduate research opportunities 
       in aerodynamics and aerospace systems.
     </p>
     <div class="hero-ctas">
@@ -865,7 +865,16 @@
         REPLACE THIS with an <img> tag once you have your photo in the folder.
         Example: <img src="photo.jpg" alt="Aayushi Dwivedi" class="hero-photo">
       -->
-<img src="my-photo.jpg" alt="Aayushi Dwivedi" class="hero-photo">
+      <div class="photo-placeholder">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <circle cx="20" cy="14" r="7" stroke="#9a9088" stroke-width="1.5"/>
+          <path d="M4 36c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="#9a9088" stroke-width="1.5"/>
+        </svg>
+        <span>Add photo.jpg</span>
+        <span style="font-size:9px;opacity:0.6">See deploy guide below</span>
+      </div>
+    </div>
+    <div class="stats-row">
       <div class="stat-card">
         <div class="stat-num">9.08</div>
         <div class="stat-label">CGPA / 10</div>
@@ -1069,11 +1078,7 @@
               <li>Won the AIDAA Student Team Challenge, earning full scholarship to IAC 2024, Milan.</li>
               <li>Presented at IAC 2024 (Milan), GLEX 2025, and CEAS–AIDAA 2025 as co-author and presenter.</li>
             </ul>
-            <!-- Add AMRUT images when ready: amrut-render.jpg, amrut-cfd.jpg -->
-            <div class="project-images">
-              <div class="project-img-slot" style="font-size:9px;color:var(--stone);text-align:center;">amrut-render.jpg</div>
-              <div class="project-img-slot" style="font-size:9px;color:var(--stone);text-align:center;">amrut-cfd.jpg</div>
-            </div>
+
           </div>
           <div class="project-meta">
             <div class="project-meta-label">Duration</div>
@@ -1112,11 +1117,10 @@
               <li>Implemented a PID-based closed-loop actuation system with IMU-based attitude feedback.</li>
               <li>Evaluated controller performance through bench testing and quantitative time-response analysis.</li>
             </ul>
-            <div class="project-images">
+            <div class="project-images" style="grid-template-columns:1fr;">
               <div class="project-img-slot" style="aspect-ratio:4/3;">
                 <img src="TVC.png" alt="Thrust Vector Control gimbal mechanism">
               </div>
-              <div class="project-img-slot" style="font-size:9px;color:var(--stone);text-align:center;">tvc-test.jpg (optional)</div>
             </div>
           </div>
           <div class="project-meta">
@@ -1151,11 +1155,10 @@
               <li>Developed a real-time 3D visualisation interface in Processing (Java), driven by live IMU data.</li>
               <li>Optimised power architecture by integrating with host vehicle supply, eliminating dedicated battery mass while improving RF range and latency.</li>
             </ul>
-            <div class="project-images">
+            <div class="project-images" style="grid-template-columns:1fr;">
               <div class="project-img-slot" style="aspect-ratio:4/3;">
                 <img src="FRS.png" alt="ABHIMAY Flight Recorder System hardware">
               </div>
-              <div class="project-img-slot" style="font-size:9px;color:var(--stone);text-align:center;">frs-award.jpg (optional)</div>
             </div>
           </div>
           <div class="project-meta">
@@ -1191,10 +1194,7 @@
               <li>Implemented redundant data handling — simultaneous RF telemetry and onboard SD card logging for data integrity under comms loss.</li>
               <li>Developed embedded feedback-driven control architecture for sensor–actuator coordination and parachute deployment using I2C and SPI protocols.</li>
             </ul>
-            <div class="project-images">
-              <div class="project-img-slot">Add: aruna-pcb.jpg</div>
-              <div class="project-img-slot">Add: aruna-assembled.jpg</div>
-            </div>
+
           </div>
           <div class="project-meta">
             <div class="project-meta-label">Duration</div>
@@ -1228,10 +1228,7 @@
               <li>In-house developed Arduino Uno-based flight control system with robust and durable arms.</li>
               <li>Precision yaw control mechanism integrated into the structural design.</li>
             </ul>
-            <div class="project-images">
-              <div class="project-img-slot">Add: cubesat-render.jpg</div>
-              <div class="project-img-slot">Add: cubesat-assembly.jpg</div>
-            </div>
+
           </div>
           <div class="project-meta">
             <div class="project-meta-label">Team</div>
